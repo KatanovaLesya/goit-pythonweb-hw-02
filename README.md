@@ -1,12 +1,14 @@
-# goit-pythonweb-hw-02
+# ДЗ Тема: Основи технології  Docker
 
-## Технічний опис завдання
+Створіть віртуальне оточення то встановіть необхідні бібліотеки
 
-Використовуючи команду git clone, клонуйте репозиторій за адресою
-https://github.com/GoIT-Python-Web/FullStack-Web-Development-hw2
-Перейдіть у клонований каталог
+```bash
+pip install -r requirements.txt
+```
 
-Створіть Dockerfile із вказівками для створення образу Docker застосунку.
-Увага! Використовуйте версію Python 3.10 для правильної роботи застосунку
+Запуск:
 
-Напишіть docker-compose.yaml з конфігурацією для застосунку та PostgreSQL
+```bash 
+python main.py
+```
+
